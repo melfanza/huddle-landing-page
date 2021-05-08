@@ -44,9 +44,7 @@ body {
 .landing {
   display: -ms-grid;
   display: grid;
-  grid-template-areas: 
-    'hero hero heading-1'
-    'hero hero heading-2';
+      grid-template-areas: 'hero hero heading-1' 'hero hero heading-2';
 }
 
 .hero {
@@ -199,10 +197,7 @@ a {
             justify-content: center;
   }
   .landing {
-    grid-template-areas:
-      'hero'
-      'heading-1'
-      'heading-2';
+        grid-template-areas: "hero" "heading-1" "heading-2";
   }
   .hero img {
     display: -webkit-box;
