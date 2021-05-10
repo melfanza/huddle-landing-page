@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,57 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 </head>
 
 <body>
-  <div class="container">
-    <!-- Logo -->
-    <header class="logo">
-      <img src="images/logo.svg" alt="" class="logo-image">
-    </header>
+  <!-- Logo -->
+  <header>
+    <a href="#"><img src="./images/logo.svg" alt="Huddle logo"></a>
+  </header>
 
-    <section class="landing">
-      <div class="hero">
-        <img src="images/illustration-mockups.svg" alt="">
-      </div>
+  <!-- Main -->
+  <main>
+    <div class="image-section">
+      <img class="image-mockup" src="./images/illustration-mockups.svg" alt="Huddle mockup">
+    </div>
 
-      <div class="heading heading-1">
-        <h1 class="title">Build the Community <br> your fans will love.</h1>
-      </div>
+    <div class="text-section">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <a class="btn-register" href="#">Register</a>
+    </div>
+  </main>
 
-      <div class="heading heading-2">
-        <p class="caption">Huddles re-imagines the way we build communities. You have <br> a voice, but so does the
-          audience. Create Connections with <br> your Users as you engage in the genuine audience.</p>
-        <a href="#" class="button">Register</a>
-      </div>
-    </section>
+  <!-- Icon -->
+  <footer>
+    <div class="icon-container">
+      <a class="icon-link fb-link" href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="icon-link twitter-link" href="https://twitter.com/" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="icon-link ig-link" href="https://www.instagram.com/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
 
-    <footer class="footer">
-      <div class="social-media">
-        <i class="fab fa-facebook-f fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
-        <i class="fab fa-instagram fa-2x"></i>
-      </div>
-    </footer>
-  </div>
-
+    <div class="attribution">
+      <p>
+        Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      </p>
+      <p>
+        Coded by <a class="attribution-link" href="https://www.instagram.com/elfanthedev" target="_blank">Muhammad Elfanza</a>.
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
