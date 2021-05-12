@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-dOEbcTZ3N)
+- Live Site URL: [Add live site URL here](https://huddle-landing-page-ashen-ten.vercel.app/)
 
 ## My process
 
